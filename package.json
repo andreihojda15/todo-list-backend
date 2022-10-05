@@ -1,0 +1,26 @@
+{
+  "name": "todo-list-backend",
+  "version": "1.0.0",
+  "description": "backend with nodejs for todo list app",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreihojda15/todo-list-backend.git"
+  },
+  "author": "Hojda Andrei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreihojda15/todo-list-backend/issues"
+  },
+  "homepage": "https://github.com/andreihojda15/todo-list-backend#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
